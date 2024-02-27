@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to top, rgba(44, 18, 2, 0.986), rgb(148, 54, 0), rgb(70, 26, 6));
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: blanchedalmond;
+}
+
+.box {
+    background-color: rgb(43, 17, 0);
+    height: 30%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms ease-in-out;
+    border: 2px solid transparent;
+}
+
+
+.box:hover {
+    background-color: rgb(97, 27, 0);
+    height: 95%;
+    margin: 0;
+
+}
+
+.nav-lib {
+    background-color: rgb(59, 26, 7);
+    display: block;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.livraria-logo {
+    height: 80px;
+
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+
+}
+
+.container {
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-flow: row;
+}
+
+.book-container {
+    margin-right: 50px;
+    
+}
+
+.book-cover {
+    width: 17em;
+
+}
+.book-description{
+background-color: lightgray;
+height: 50vh;
+padding: 50px;
+border-radius: 5px;
+
+}
